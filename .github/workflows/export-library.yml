@@ -38,5 +38,6 @@ jobs:
             echo "No change."
           else
             git commit -m "Library export $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
             git push
           fi

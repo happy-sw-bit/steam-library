@@ -2,7 +2,7 @@ name: Export Steam library
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # daily, 04:17 Berlin in winter, 05:17 in summer
+    - cron: "17 11 * * *"  # backup, 12:17 Berlin in winter, 13:17 in summer
   workflow_dispatch:
 
 permissions:
